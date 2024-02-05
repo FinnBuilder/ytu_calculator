@@ -13,6 +13,7 @@
 
 h1 {
   padding-bottom: 15px;
+  align-items: center;
   text-align: center;
 }
 
@@ -33,7 +34,7 @@ button {
   font-weight: bold;
   cursor: pointer;
   line-height: 50px;
-  box-shadow: 1px 1px 1px 1px white;
+  box-shadow: 1px 1px 1px 1px red;
 }
 
 .mathBtn {
