@@ -13,30 +13,67 @@
   <div class="mainContainer">
   <h1>Calculator</h1>
   <div class="buttonsContainer">
-  <button>1</button>
-  <button>2</button>
-  <button>3</button>
-  <button class="mathBtn">+</button>
+  <button onclick="
+    calculate(1)
+    ">1</button>
+  <button onclick="
+  calculate(2)
+  ">2</button>
+  <button onclick="
+  calculate(3)
+  ">3</button>
+  <button class="mathBtn" onclick="
+  calculate(' + ')
+  ">+</button>
   </div>
   <div class="buttonsContainer">
-  <button>4</button>
-  <button>5</button>
-  <button>6</button>
-  <button class="mathBtn">-</button>
+  <button onclick="
+  calculate(4)
+  ">4</button>
+  <button onclick="
+  calculate(5)
+  ">5</button>
+  <button onclick="
+  calculate(6)
+  ">6</button>
+  <button class="mathBtn" onclick="
+  calculate(' - ')
+  ">-</button>
   </div>
   <div class="buttonsContainer">
-  <button>7</button>
-  <button>8</button>
-  <button>9</button>
-  <button class="mathBtn">*</button>
+  <button onclick="
+  calculate(7)
+  ">7</button>
+  <button onclick="
+  calculate(8)
+  ">8</button>
+  <button onclick="
+  calculate(9)
+  ">9</button>
+  <button class="mathBtn" onclick="
+  calculate(' * ')
+  ">*</button>
   </div>
   <div class="buttonsContainer">
-  <button>0</button>
-  <button>.</button>
-  <button>=</button>
+  <button onclick="
+  calculate(0)
+  ">0</button>
+  <button onclick="
+  calculate('.')
+  ">.</button>
+  <button onclick="
+  console.log(typeof(calculation));
+  calculation = eval(calculation);
+  console.log(`= ${calculation}`);
+  console.log(typeof(calculation));
+  calculation = '';
+ ">=</button>  
   <button class="mathBtn">/</button>
   </div>
-  <button>Clear</button>
+  <button onclick="
+    calculation = '';
+    console.log(calculation + 'Cleared');
+  ">Clear</button>
   </div>
 </body>
 </html>

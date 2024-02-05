@@ -33,6 +33,7 @@ button {
   font-weight: bold;
   cursor: pointer;
   line-height: 50px;
+  box-shadow: 1px 1px 1px 1px white;
 }
 
 .mathBtn {
